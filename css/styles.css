@@ -6,34 +6,25 @@ font-family: 'Playfair Display', serif;
     
 
 .nav {
-padding: 20px 20px;
+padding:0%;
 display: inline-flex;
 float: left;
 flex-direction: row;
 
 }
-{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-}
 
-ul {
+
+li{
     list-style: none;
+    display:inline-flex;
     float: right;
-    display: flex;
-    padding: 40px 30px;
-    text-align: center;
-    text-decoration: none;
+    padding: 25px 10px 10px 10px;
+    
+
+    
     
 }
 
-li{
-   padding: 10px;
-   margin: right;
-   font-size: medium;
-}
 
 .article {
 font-size: 18px;
